@@ -6,6 +6,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
+    "test": "jest --watch",
     "cypress": "cypress open"
   },
   "dependencies": {
@@ -14,6 +15,8 @@
     "react-dom": "17.0.2"
   },
   "devDependencies": {
+    "@testing-library/jest-dom": "^5.16.0",
+    "@testing-library/react": "^12.1.2",
     "@types/node": "16.11.11",
     "@types/react": "17.0.37",
     "@typescript-eslint/eslint-plugin": "^5.5.0",
@@ -22,8 +25,10 @@
     "eslint-config-next": "12.0.6",
     "eslint-config-prettier": "^8.3.0",
     "husky": "^7.0.4",
+    "jest": "^27.4.3",
     "lint-staged": "^12.1.2",
     "prettier": "^2.5.1",
+    "react-test-renderer": "^17.0.2",
     "typescript": "4.5.2"
   }
 }
